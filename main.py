@@ -8,7 +8,7 @@ API_HASH = 'API_HASH_HERE' #Get it from my.telegram.org
 
 pyrogramClient = Client(
    'getAges'+TOKEN.split(':')[0],
-   API_ID, API_HASH,
+   int(API_ID), API_HASH,
    bot_token=TOKEN
 )
 
