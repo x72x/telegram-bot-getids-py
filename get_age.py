@@ -30,6 +30,6 @@ def get_date(id):
 def get_age(id):
     d = get_date(id)
     return [
-        "older than" if d[0] < 0 else "newer than" if d[0] > 0 else "approx",
+        "older than" if d[0] < 0 else "newer than" if d[0] > 0 else "~",
         f"{d[1].month}/{d[1].year}"
     ]
