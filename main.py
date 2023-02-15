@@ -36,8 +36,7 @@ This is a very early version of the bot. Therefore a few things (explainatory te
  ├ first_name: {first_name}
  ├ username: [{username}](https://t.me/{username})
  ├ language_code: {language_code} (-)
- └ is_premium: {is_premium}
-[⁪⁬⁪⁬⁮⁪⁬⁪⁬⁮](https://github.com/x72x/telegram-bot-getids-py)'''.format(
+ └ is_premium: {is_premium}⁪⁬⁪⁬'''.format(
         username=m.from_user.username,
         first_name=m.from_user.first_name,
         is_premium=m.from_user.is_premium,
