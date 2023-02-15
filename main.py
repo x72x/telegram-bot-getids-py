@@ -1,3 +1,10 @@
+'''
+All rights reserved © 15 feb 2023
+
+https://t.me/DNDZAiD
+https://t.me/Y88F8
+'''
+
 import re
 from pyrogram import Client, filters, idle
 from get_age import get_age
